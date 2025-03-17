@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elazığ Ekonomi Haberleri - Elazığ Gündem Haber">
+    <title>Ekonomi | Elazığ Gündem Haber</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container py-4">
+        <div class="text-center mb-4" data-aos="fade-down" data-aos-duration="1000">
+            <a href="index.html" class="logo-link">
+                <h1 class="logo">ELAZIĞ<span class="daily-news">GÜNDEM<br>HABER</span></h1>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ANA SAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="ekonomi.html">EKONOMİ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="elazig.html">ELAZIĞ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kultur.html">KÜLTÜR & TURİZM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkimizda.html">HAKKIMIZDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+                        </li>
+                    </ul>
+                    <div class="search-icon" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Arama Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Arama</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="search-form">
+                        <input type="text" placeholder="Arama yapmak için yazın..." class="form-control">
+                        <button type="submit" class="btn btn-primary mt-2">Ara</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- Kategori Başlığı -->
+        <div class="section-title" data-aos="fade-up" data-aos-duration="800">
+            <h2>EKONOMİ HABERLERİ</h2>
+        </div>
+
+        <!-- Ana Haber -->
+        <div class="row mb-5">
+            <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                <div class="featured-news position-relative">
+                    <img src="images/elazig-tarim.jpg" alt="Elazığ Üzüm Bağları" class="img-fluid" style="object-fit: cover; height: 500px; width: 100%;">
+                    <div class="category-badge">TARIM</div>
+                    <div class="featured-content">
+                        <h2 class="featured-title">Elazığ'da Üzüm Üreticilerine Modern Tarım Teknikleri Eğitimi</h2>
+                        <div class="article-meta">
+                            <span class="author">YAZAR: ELAZIĞ HABERLERİ</span>
+                            <span class="date">17 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 8</span>
+                        </div>
+                        <a href="haber-detay.html" class="btn btn-light btn-sm mt-3">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ekonomi Haberleri -->
+        <div class="row mt-4">
+            <!-- Haber 1 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/elazig-baraj.jpg" alt="Keban Barajı" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">ENERJİ</div>
+                        <h3 class="news-title">Keban Barajı'nda Su Seviyesi Yükseldi, Enerji Üretimi Arttı</h3>
+                        <div class="news-meta">
+                            <span class="date">15 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 6</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Haber 2 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/elazig-yol.jpg" alt="Elazığ Yol" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">ALTYAPI</div>
+                        <h3 class="news-title">Elazığ-Malatya Arası Yeni Otoyol Projesi Onaylandı</h3>
+                        <div class="news-meta">
+                            <span class="date">13 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 7</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Haber 3 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/elazig-universite.jpg" alt="Fırat Üniversitesi" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">TEKNOLOJİ</div>
+                        <h3 class="news-title">Fırat Üniversitesi Teknoloji Fakültesi Yeni Binasına Kavuştu</h3>
+                        <div class="news-meta">
+                            <span class="date">11 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 5</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Haber 4 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://cdn.pixabay.com/photo/2017/07/25/01/22/factory-2536760_1280.jpg" alt="Elazığ Sanayi" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">YATIRIM</div>
+                        <h3 class="news-title">Elazığ'da Yeni Organize Sanayi Bölgesi İçin Çalışmalar Başladı</h3>
+                        <div class="news-meta">
+                            <span class="date">9 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 9</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Haber 5 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg" alt="İstihdam" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">İSTİHDAM</div>
+                        <h3 class="news-title">Elazığ'da İstihdam Seferberliği: 500 Kişiye İş İmkanı</h3>
+                        <div class="news-meta">
+                            <span class="date">7 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 11</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Haber 6 -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg" alt="Turizm Yatırımları" class="img-fluid" style="object-fit: cover; height: 220px; width: 100%;">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-category">TURİZM</div>
+                        <h3 class="news-title">Elazığ'da Turizm Yatırımları Artıyor, Yeni Oteller Açılıyor</h3>
+                        <div class="news-meta">
+                            <span class="date">5 MART 2024</span>
+                            <span class="comments"><i class="far fa-comment"></i> 4</span>
+                        </div>
+                        <a href="haber-detay.html" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Daha Fazla Yükle Butonu -->
+        <div class="text-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="800">
+            <button class="btn btn-outline-dark load-more">DAHA FAZLA HABER YÜKLE</button>
+        </div>
+
+        <!-- Abone Ol Bölümü -->
+        <div class="newsletter-section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3>Bültenimize Abone Olun</h3>
+                    <p>En güncel Elazığ ekonomi haberleri için bültenimize abone olun.</p>
+                </div>
+                <div class="col-md-6">
+                    <form class="newsletter-inline-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="E-posta adresiniz" required>
+                            <button class="btn btn-dark" type="submit">ABONE OL</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="footer-title">ELAZIĞ GÜNDEM HABER</h3>
+                    <p>Elazığ ve çevresinden en güncel haberler, etkinlikler ve duyurular.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="footer-title">BAĞLANTILAR</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="ekonomi.html">Ekonomi</a></li>
+                        <li><a href="elazig.html">Elazığ</a></li>
+                        <li><a href="kultur.html">Kültür & Turizm</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+                    <h3 class="footer-title">ABONE OL</h3>
+                    <p>En son haberler için bültenimize abone olun.</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="E-posta adresiniz" required>
+                        <button type="submit">Abone Ol</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="copyright">© 2024 Elazığ Gündem Haber. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // AOS Animasyon Başlatma
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init();
+            
+            // Back to Top Button
+            const backToTopButton = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('show');
+                } else {
+                    backToTopButton.classList.remove('show');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            });
+            
+            // Daha Fazla Yükle Butonu
+            const loadMoreButton = document.querySelector('.load-more');
+            if (loadMoreButton) {
+                loadMoreButton.addEventListener('click', function() {
+                    // Burada AJAX ile daha fazla haber yüklenebilir
+                    alert('Daha fazla haber yükleniyor...');
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
